@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+
+}
+
+body {
+  left: 0;
+  top: 0;
+}
+
+.header {
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #ffef63;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.wrapper a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.wrapper:hover {
+  opacity: 1;
+}
+
+li {
+  background: #374a67;
+  border-radius: 10px;
+  }
+
+#liste a:hover {
+  color: #333;
+    }
+
+#navigation li:hover{
+  transform: scale(1.1);
+}
+
+
+.format {
+  height: 100%;
+  }
+
+#logo {
+margin-top: 10px;
+opacity: 1;
+}
+
+#navigation {
+  display: none;
+}
+
+#liste li{
+  padding: 1rem;
+}
+
+#navigation ul {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+#button {
+  border: 0;
+  height: inherit;
+  background-color: #ffef63;
+  color: #333;
+  margin: 1rem;
+  transform: none;
+  }
+
+#hero {
+  background-image: url(img/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  text-align: center;
+
+}
+
+#bild img {
+  width: 50%;
+  }
+
+#hero h1 {
+  color: #d35845;
+  text-align: center;
+  text-transform: capitalize;
+  background: #374a67;
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 0px 0px 49px 14px rgba(0,0,0,0.75);
+}
+
+.text{
+  background-color: #e8d7d3;
+  height: 100%;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.text h2{
+  text-align: center;
+  }
+
+
+.text2 {
+  background-color: #f2b9a7;
+  height: 100%;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+#eisbild {
+  background-image: url(img/eis.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+article {
+  border-radius: 10px;
+}
+
+.trenner {
+  width: 100%;
+  height: 20vh;
+  background-image: url(img/trenner.png);
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.googlemaps {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+
+}
+
+.goolemaps iframe {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  }
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #706e6d;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  }
+
+
+button:hover {
+  transform: scaleX(2);
+}
+
+
+@media (min-width: 960px) {
+
+#button {
+  display: none;
+}
+
+#navigation {
+  display: block;
+}
+
+#liste {
+  display: flex;
+}
+
+#navigation li {
+  margin-right: 1rem;
+  }
+
+.text{
+  padding: 10rem;
+}
+
+.text2{
+  padding: 10rem;
+}
+
+.googlemaps {
+  text-align: center;
+}
+
+}
