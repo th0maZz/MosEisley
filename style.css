@@ -193,9 +193,9 @@ article {
 }
 
 .googlemaps {
-  height: 10%;
+  /* height: 10%; */
   overflow: hidden;
-  padding-bottom: 40%;
+  padding-bottom: 10%;
   position: relative;
   top: 4rem;
 
@@ -258,8 +258,7 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0;
-    height: 100%;
+
   }
 
 
@@ -280,6 +279,7 @@ button:hover {
 
 .googlemaps {
   text-align: center;
+  padding-bottom: 10%;
 }
 
 }
