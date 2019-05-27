@@ -11,7 +11,7 @@ html {
 body {
   left: 0;
   top: 0;
-    }
+}
 
 .header {
   width: 100%;
@@ -28,11 +28,10 @@ body {
   transition: 1s;
 }
 
-.wrapper a{
+.wrapper a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
-
 }
 
 .wrapper:hover {
@@ -42,32 +41,31 @@ body {
 li {
   background: #374a67;
   border-radius: 10px;
-  }
+}
 
 #liste a:hover {
   color: #333;
-    }
+}
 
-#navigation li:hover{
+#navigation li:hover {
   transform: scale(1.1);
 }
 
-
 .format {
   height: 100%;
-  }
+}
 
 #logo {
-opacity: 1;
-height: 40px;
-margin-left: 10px;
+  opacity: 1;
+  height: 40px;
+  margin-left: 10px;
 }
 
 #navigation {
   display: none;
 }
 
-#liste li{
+#liste li {
   padding: 1rem;
 }
 
@@ -80,7 +78,7 @@ margin-left: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
+}
 
 #button {
   border: 0;
@@ -89,7 +87,7 @@ margin-left: 10px;
   color: #333;
   margin: 1rem;
   transform: none;
-  }
+}
 
 #hero {
   background-image: url(img/hero.jpg);
@@ -106,7 +104,7 @@ margin-left: 10px;
 
 #bild img {
   width: 50%;
-  }
+}
 
 #hero h1 {
   color: #d35845;
@@ -115,54 +113,48 @@ margin-left: 10px;
   background: #374a67;
   border-radius: 15px;
   padding: 1rem;
-  box-shadow: 0px 0px 49px 14px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 49px 14px rgba(0, 0, 0, 0.75);
 }
 
-.text{
+.text {
   background-color: #e8d7d3;
   height: 100%;
   text-align: justify;
   padding: 1rem;
 }
 
-.text h2{
+.text h2 {
   text-align: center;
-  }
-
+}
 
 .text2 {
   background-color: #f2b9a7;
   height: 100%;
   text-align: center;
   padding: 1rem;
-
 }
 
 .dani {
   padding: 1rem;
 }
 
-
-
 .about {
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
-#daniela img{
+#daniela img {
   width: 100%;
-  }
+}
 
 #impressum {
   display: flex;
 }
 
-#impressum img{
-
-width: 100%;
-padding: 1rem;
+#impressum img {
+  width: 100%;
+  padding: 1rem;
 }
 
 #eisbild {
@@ -180,10 +172,9 @@ article {
   width: 100%;
   height: 20vh;
   background-image: url(img/trenner.png);
-  background-size:contain;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 #wo {
@@ -207,15 +198,13 @@ article {
   padding-bottom: 10%;
   position: relative;
   top: 4rem;
-
 }
 
 .goolemaps iframe {
   width: 100%;
   height: 100%;
   top: 1rem;
-
-  }
+}
 
 footer {
   height: 10vh;
@@ -226,40 +215,37 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+}
 
-footer a{
+footer a {
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
-  }
-
+}
 
 button:hover {
   transform: scaleX(2);
 }
 
-
 @media (min-width: 960px) {
+  #logo {
+    height: 50%;
+  }
 
-#logo {
-  height: 50%;
-}
+  #button {
+    display: none;
+  }
 
-#button {
-  display: none;
-}
+  #navigation {
+    display: block;
+  }
 
-#navigation {
-  display: block;
-}
+  #liste {
+    display: flex;
+  }
 
-#liste {
-  display: flex;
-}
-
-#navigation li {
-  margin-right: 1rem;
+  #navigation li {
+    margin-right: 1rem;
   }
 
   #wo {
@@ -267,28 +253,25 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
   }
 
-
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
-.text{
-  padding: 10rem;
-}
+  .text {
+    padding: 10rem;
+  }
 
-.text2{
-  padding: 10rem;
-}
+  .text2 {
+    padding: 10rem;
+  }
 
-.googlemaps {
-  text-align: center;
-  padding-bottom: 10%;
-}
-
+  .googlemaps {
+    text-align: center;
+    padding-bottom: 10%;
+  }
 }
