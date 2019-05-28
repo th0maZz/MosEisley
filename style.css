@@ -66,8 +66,34 @@ li {
   display: none;
 }
 
+#navigation.show {
+ position: fixed;
+ background-color: #ffef63;
+ text-align: center;
+ top: 100px;
+ width: 100%;
+ left: 0;
+ height: calc(100% - 60px);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #374a67;
+ }
+
+#navigation.show li {
+  justify-content: center;
+  padding: 2rem;
+background: transparent;
+  }
+
+#navigation.show a {
+  color: #374a67;
+
+}
+
 #liste li {
   padding: 1rem;
+  color: #333;
 }
 
 #navigation ul {
@@ -153,14 +179,17 @@ li {
 
 #impressum {
   display: flex;
-  height: 100%;
-  flex-direction: row;
+  width: 100%;
+
+
 }
 
-.impressumbild {
-  width: 30%
-  }
-
+#impressum div img {
+  max-width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 
 #eisbild {
   background-image: url(img/eis.jpg);
