@@ -151,14 +151,16 @@ li {
   width: 100%;
 }
 
-.impressum {
+#impressum {
   display: flex;
+  height: 100%;
+  flex-direction: row;
 }
 
-.impressumbild img{
-  width: 110%;
-  padding: 1rem;
-}
+.impressumbild {
+  width: 30%
+  }
+
 
 #eisbild {
   background-image: url(img/eis.jpg);
